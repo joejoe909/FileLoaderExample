@@ -1,0 +1,52 @@
+# ====================================================================
+# CMake Build Directories & Outputs
+# ====================================================================
+# Ignores default IDE/CMake build folders (e.g., build/, build-Release/)
+[Bb]uild*/
+/out/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# ====================================================================
+# Qt Generated Files (UIC, MOC, RCC)
+# ====================================================================
+# Generated UI headers, MOC files, and resources
+ui_*.h
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+*.qrc.depends
+
+# Qt Creator specific project-specific session files
+*.user
+*.user.*
+
+# ====================================================================
+# OS & IDE Specific Files
+# ====================================================================
+# Visual Studio / MSVC
+.vs/
+*.sln
+*.vcxproj
+*.filters
+*.user
+*.suo
+*.db
+*.ipch
+
+# VS Code
+.vscode/
+
+# CLion
+.idea/
+cmake-build-*/
+
+# macOS system files
+.DS_Store
